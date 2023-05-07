@@ -1,0 +1,72 @@
+﻿@model RegisterFormModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="wrapper">
+    <div class="title">
+        Register now
+    </div>
+    <form method="post" asp-action="Register">
+
+        @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
+        {
+            <p class="form-row form-row-wide alert alert-danger">
+                @ViewBag.Message
+            </p>
+        }
+        <div class="field">
+            <input placeholder="Name" type="text" asp-for="Name">
+            <span asp-validation-for="Name" class="text-danger ml-15"></span>
+        </div>
+        <div class="field">
+            <input placeholder="Surname" asp-for="Surname" title="surname" type="text" class="input-text" />
+            <span asp-validation-for="Surname" class="text-danger ml-15"></span>
+        </div>
+        <div class="field">
+            <input placeholder="Username" asp-for="Username" title="username" type="text" class="input-text" />
+            <span asp-validation-for="Username" class="text-danger ml-15"></span>
+        </div>
+        <div class="field">
+            <input placeholder="Email" asp-for="Email"
+                   title="email"
+                   class="input-text" />
+            <span asp-validation-for="Email" class="text-danger ml-15"></span>
+        </div>
+        <div class="field">
+            <input placeholder="Password" asp-for="Password"
+                   title="pass"
+                   type="password"
+                   class="input-text" />
+            <span asp-validation-for="Password" class="text-danger ml-15"></span>
+        </div>
+        <div class="field">
+            <input placeholder="Confirm password" asp-for="ConfirmPassword"
+                   title="pass"
+                   type="password"
+                   class="input-text" />
+            <span asp-validation-for="ConfirmPassword" class="text-danger ml-15"></span>
+        </div>
+        <div class="signup-link">
+            <a class="btn" asp-action="login">Login</a>
+            <input class="btn" type="submit" value="Register now"  />
+        </div>
+    </form>
+</div>
+
+@section addcss{
+   <link rel="stylesheet" href="~/css/register.css" />
+
+   <style>
+       .signup-link a{
+           color:#fff !important;
+           text-decoration: none !important;
+       }
+       .btn{
+           background: linear-gradient(-135deg, #c850c0, #4158d0);
+           color: #fff;
+       }
+   </style>
+}
+

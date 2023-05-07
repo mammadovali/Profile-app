@@ -1,0 +1,50 @@
+﻿@model LoginFormModel 
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="wrapper">
+    <div class="title">
+        Login your account
+    </div>
+    <form method="post" asp-action="login">
+
+        @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
+        {
+            <p class="form-row form-row-wide alert alert-danger">
+                @ViewBag.Message
+            </p>
+        }
+        <div class="field">
+            <input placeholder="Email" type="text" asp-for="UserName">
+            <span asp-validation-for="UserName" class="text-danger ml-15"></span>
+        </div>
+        <div class="field">
+            <input placeholder="Password" asp-for="Password"
+                   title="pass"
+                   type="password"
+                   class="input-text" />
+            <span asp-validation-for="Password" class="text-danger ml-15"></span>
+        </div>
+        <div class="signup-link">
+            <input class="btn" type="submit" value="Login"  />
+            <a class="btn" asp-action="Register">Sign up</a>
+        </div>
+    </form>
+</div>
+
+@section addcss{
+   <link rel="stylesheet" href="~/css/register.css" />
+
+   <style>
+       .signup-link a{
+           color:#fff !important;
+           text-decoration: none !important;
+       }
+       .btn{
+           background: linear-gradient(-135deg, #c850c0, #4158d0);
+           color: #fff;
+       }
+   </style>
+}
+

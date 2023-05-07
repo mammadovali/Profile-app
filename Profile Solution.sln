@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profile.WebUI", "Profile.WebUI\Profile.WebUI.csproj", "{E310BC5D-A705-4DA5-8CC8-FBDA72730C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profile.Domain", "Profile.Domain\Profile.Domain.csproj", "{548133CF-B9F0-431E-A0B6-71AC836F7A01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E310BC5D-A705-4DA5-8CC8-FBDA72730C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E310BC5D-A705-4DA5-8CC8-FBDA72730C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E310BC5D-A705-4DA5-8CC8-FBDA72730C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E310BC5D-A705-4DA5-8CC8-FBDA72730C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548133CF-B9F0-431E-A0B6-71AC836F7A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548133CF-B9F0-431E-A0B6-71AC836F7A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548133CF-B9F0-431E-A0B6-71AC836F7A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548133CF-B9F0-431E-A0B6-71AC836F7A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E459F98-E560-405C-B833-6C59D25553A9}
+	EndGlobalSection
+EndGlobal

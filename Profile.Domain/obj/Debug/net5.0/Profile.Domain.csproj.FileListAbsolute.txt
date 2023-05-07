@@ -1,0 +1,12 @@
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\bin\Debug\net5.0\Profile.Domain.deps.json
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\bin\Debug\net5.0\Profile.Domain.dll
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\bin\Debug\net5.0\ref\Profile.Domain.dll
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\bin\Debug\net5.0\Profile.Domain.pdb
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\obj\Debug\net5.0\Profile.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\obj\Debug\net5.0\Profile.Domain.AssemblyInfoInputs.cache
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\obj\Debug\net5.0\Profile.Domain.AssemblyInfo.cs
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\obj\Debug\net5.0\Profile.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\obj\Debug\net5.0\Profile.Domain.dll
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\obj\Debug\net5.0\ref\Profile.Domain.dll
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\obj\Debug\net5.0\Profile.Domain.pdb
+C:\Users\Əli\Desktop\Profile Solution\Profile.Domain\obj\Debug\net5.0\Profile.Domain.csproj.AssemblyReference.cache
